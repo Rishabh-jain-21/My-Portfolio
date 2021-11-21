@@ -15,4 +15,11 @@ $(document).ready(function () {
     $('.navbar-item').click(function () {
         $('.navbar .menu').toggleClass("active");
     });
+    //typing animation
+    var type = new Typed(".typing", {
+        strings: ["Developer", "Coder", "Blogger", "Designer", "Web-Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
 });
