@@ -22,4 +22,10 @@ $(document).ready(function () {
         backSpeed: 60,
         loop: true
     })
+    var type = new Typed(".typing-2", {
+        strings: ["Developer", "Coder", "Blogger", "Designer", "Web-Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
 });
