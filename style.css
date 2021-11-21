@@ -7,6 +7,9 @@
   text-decoration: none;
   user-select: none; /*preventing from copying my web details */
 }
+html {
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
   display: none;
 }
@@ -131,7 +134,8 @@ section {
 }
 .about,
 .services,
-.skills {
+.skills,
+footer {
   font-family: "Poppins", sans-serif;
 }
 section .title {
@@ -312,6 +316,22 @@ section .title::after {
 }
 .skills .skills-content .right .java::before {
   width: 81%;
+}
+
+/* footer starts */
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px 22px;
+}
+footer span a {
+  font-weight: 600;
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
 }
 /* ------------------------------------------------------------------------------------------- */
 /* make webpage responsive */
